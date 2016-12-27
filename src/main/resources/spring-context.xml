@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <!--<bean id = "studentService" class="ru.innopolis.uni.course3.service.StudentServiceImpl" autowire="byType" scope="singleton"/>-->
+
+    <!--<bean id = "studentRepository" class="ru.innopolis.uni.course3.repository.StudentRepositoryImpl" autowire="byType" scope="singleton"/>-->
+
+    <!--<bean id = "uploader" class="ru.innopolis.ioctest.io.FileUploader"/>-->
+
+    <!--<bean id = "downloader" class = "ru.innopolis.ioctest.io.FileDownloader"/>-->
+
+    <context:annotation-config/>
+
+    <context:component-scan base-package="ru.innopolis.uni.course3"/>
+
+</beans>
+
